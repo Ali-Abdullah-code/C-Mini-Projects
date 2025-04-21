@@ -35,7 +35,7 @@ struct Item
 
     void describeItem()
     {
-        cout << "\n  * Name of: " << name;
+        cout << "\n  * Name: " << name;
         cout << "\n  * Value: " << value << " gold";
         cout << "\n  * Weight: " << weight << " kg";
         cout << "\n  * Type: ";
